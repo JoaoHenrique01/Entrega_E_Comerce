@@ -1,0 +1,145 @@
+.cabeçalho {
+    background-color: #FFFFFF;
+    ;
+    position: absolute;
+    width: 100vw;
+    height: 70px;
+    top: 10px;
+    box-shadow: 0px 7px 10px -10px;
+    right: 10px;
+    left: 5px;
+
+}
+.nomeLoja {
+   display: flex;
+   margin-top: px;
+
+}
+.opções{
+    display: flex;
+    margin-left: 1200px;
+    margin-top: 10px;
+    gap: 20px;
+}
+h3.nome_da_loja {
+   position: absolute;
+    left: 80px;
+    top: 5px; 
+}
+.home{
+    background-color: #FFFFFF;
+    width: 1800px;
+    height: 1000px;
+    flex-direction: row;
+    padding: 10px;
+    left: 10px;
+}
+.produtos {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 800px;
+    margin-top: 200px;
+    margin-left: 400px;
+    gap: 50px;
+}
+img {
+    max-width: 100%;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+.item {
+    height: 390px;
+    width: 210px;
+    background-color: #f5f5f5;
+    display: block;
+    
+}
+.descrição {
+    text-align: center;
+    line-height: 20px;
+    
+}
+p {
+    text-align: left;
+    padding-left: 15px;
+    font-size: 14px;
+}
+button {
+    background-color: white;
+    border: solid 1px black;   
+}
+h5 {
+    color: blue;
+}
+.Carrinho_De_Compras {
+    position: absolute;
+    left: 1480px;
+    width: 300px;
+    height: 190px;
+    top: 250px;
+    background-color: #f5f5f5;
+
+}
+.Titulo_Carrinho {
+    text-align: center;
+    display: block;
+    background-color: #37268C;
+}
+.Valores {
+    margin-top: 320px;
+    height: 200px;
+    background-color: black;
+    border-radius: 5px;
+
+}
+h3.Valores{
+    text-align: center;
+}
+.Pesquisa {
+    position: absolute;
+    top: 200px;
+    left: 1500px;
+    width: 300px;
+    height: 600px;    
+}
+
+h3.Titulo_Carrinho {
+    color: white;
+    height: 40px;
+    margin-top: 0px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+.Itens_do_Carrinho {
+    text-align: center;
+}
+h1.Itens_do_Carrinho {
+    margin-top: 30px;
+    font-size: 22px;
+    color: #292929;
+}
+p.Itens_do_Carrinho{
+    font-size: 18px;
+    color: #292929;
+}
+h4 {
+    font-size: 18px;
+    margin: 10px;
+}
+h6 {
+    margin: 10px;
+    font-size: 12px;
+    background-color: #2E245E;
+    color: #FFFFFF;
+    height: 24px;
+    width: 70px;
+}
+
+div:hover.item {
+    border: solid 2px #2E245E;
+}
